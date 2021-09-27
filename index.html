@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trunfo de classificação - Imersão DEV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="#">
+    <h1 class="page-title">Desafio #2</h1>
+   
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="#" class="alura-logo">
+    </a>
+  </header>
+  <main>
+    <div id="form">
+      <label for="moeda">Conversor de Moedas</label>  
+      <input type="number" id="valor" size="2" placeholder="Insira o valor em real R$"/>
+      <div id="btn">
+        <button type="submit" onclick="ConverterDolar()">$</button>
+        <button type="submit" onclick="ConverterEuro()">€</button>
+      </div>
+      <h2 id="valorConvertido"></h2>
+      <h2 id="valorConvertidoBitcoin"></h2>
+    </div>
+  </main>
+  <footer>
+    <p>Desenvolvido por Daniel Rodrigues</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
